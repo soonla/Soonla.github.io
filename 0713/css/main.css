@@ -287,17 +287,15 @@
   #main #mainVisual ul li { height: 100vh; background-repeat: no-repeat; background-size: cover; background-position: 50%; }
   #main #mainVisual ul li.visual01 { background-image: url("../images/images/main/main-visual03.jpg"); }
   #main #mainVisual ul li.visual02 { background-image: url("../images/images/main/customer-bg.jpg"); }
-  #main #mainVisual .slogan { position: absolute; z-index: 3; top: 45%; left: 30%; text-align: center; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); color: #fff; }
+  #main #mainVisual .slogan { position: absolute; z-index: 3; top: 35%; left: 30%; text-align: center; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); color: #fff; }
   #main #mainVisual .slogan .main { font-size: 30px; font-weight: 600; margin-bottom: 30px; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); }
-  #main #mainVisual .visual_box { display: -webkit-box; display: -ms-flexbox; display: flex; position: absolute; padding: 50px; text-align: center; margin: auto; }
-  #main #mainVisual .visual_box .list_wrap { position: relative; width: 150px; height: 150px; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
-  #main #mainVisual .visual_box .list_wrap li { display: -webkit-box; display: -ms-flexbox; display: flex; width: 150px; height: 150px; position: relative; }
-  #main #mainVisual .visual_box .list_wrap li a { position: relative; display: block; padding: 10px; width: 150px; height: 150px; border: 7px solid rgba(255, 255, 255, 0.4); }
-  #main #mainVisual .visual_box .list_wrap li a dl { margin-top: 20px; }
-  #main #mainVisual .visual_box .list_wrap li a dl dt { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-weight: 700; color: #fff; font-size: 20px; margin-bottom: 25px; }
-  #main #mainVisual .visual_box .list_wrap li a dl dt em { color: #a2ff40; }
-  #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 20px; }
-  #main #mainVisual .visual_box .list_wrap li a dl dd { margin-left: 10px; font-size: 36px; color: #fff; font-weight: 700; line-height: 1; letter-spacing: -0.075em; }
+  #main #mainVisual .visual_box { padding: 1px; text-align: center; top: 50vh; left: 0; right: 0; }
+  #main #mainVisual .visual_box .list_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  #main #mainVisual .visual_box .list_wrap li { width: calc(50% - 10px); position: relative; overflow: hidden; margin: 5px; }
+  #main #mainVisual .visual_box .list_wrap li a { width: 100%; }
+  #main #mainVisual .visual_box .list_wrap li a dl dt em { font-size: 24px; }
+  #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 22px; word-break: keep-all; }
+  #main #mainVisual .visual_box .list_wrap li a dl dd { font-size: 26px; }
   #main .introduce { background-color: #f1f1f1; }
   #main .introduce .title_wrap { width: 300px; margin: 0 auto; }
   #main .introduce .title_wrap .title_box { text-align: center; padding-top: 40px; }

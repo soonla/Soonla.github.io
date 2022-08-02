@@ -817,7 +817,7 @@
         position: absolute;
 
         z-index: 3;
-        top: 45%;
+        top: 35%;
         left: 30%;
         text-align: center;
         transform: translate(-50%, -50%);
@@ -830,61 +830,36 @@
         }
       }
       .visual_box {
-        display: flex;
-        position: absolute;
-        padding: 50px;
-
+        padding: 1px;
         text-align: center;
-        margin: auto;
+        top: 50vh;
+        left: 0;
+        right: 0;
         .list_wrap {
-          position: relative;
-          width: 150px;
-          height: 150px;
-          z-index: 1;
           display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
 
-          margin: 0 auto;
-          box-sizing: border-box;
           li {
-            display: flex;
-
-            width: 150px;
-            height: 150px;
+            width: calc(50% - 10px);
             position: relative;
+            overflow: hidden;
+            margin: 5px;
 
             a {
-              position: relative;
-              display: block;
-
-              padding: 10px;
-              width: 150px;
-              height: 150px;
-              border: 7px solid rgba(255, 255, 255, 0.4);
+              width: 100%;
               dl {
-                margin-top: 20px;
                 dt {
-                  display: flex;
-                  justify-content: flex-start;
-
-                  align-items: center;
-                  font-weight: 700;
-                  color: #fff;
-                  font-size: 20px;
-                  margin-bottom: 25px;
                   em {
-                    color: #a2ff40;
+                    font-size: 24px;
                   }
                   p {
-                    font-size: 20px;
+                    font-size: 22px;
+                    word-break: keep-all;
                   }
                 }
                 dd {
-                  margin-left: 10px;
-                  font-size: 36px;
-                  color: #fff;
-                  font-weight: 700;
-                  line-height: 1;
-                  letter-spacing: -0.075em;
+                  font-size: 26px;
                 }
               }
             }
