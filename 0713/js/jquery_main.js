@@ -156,3 +156,12 @@ btnAll.on("click", function () {
   btnAll.toggleClass("on");
   depth02.stop().delay(500).slideUp();
 });
+
+depth01.on("click", function (e) {
+  console.log("aaa");
+  const selectedDepth02 = $(this).siblings(".depth02");
+  const parentDepth02 = $(this).parent().siblings().find(".depth02");
+  parentDepth02.stop().slideUp();
+  selectedDepth02.stop().slideToggle(); //  show() 메서드는 display를 block으로 바꿔 준다.  hide() 는 display를 none으로 바꿔준다. toggle()
+  return false;
+});
