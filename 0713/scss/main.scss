@@ -849,19 +849,20 @@
             margin: 5px;
 
             a {
-              width: 100%;
+              width: 90%;
+
               dl {
                 dt {
                   em {
-                    font-size: 24px;
+                    font-size: 20px;
                   }
                   p {
-                    font-size: 22px;
+                    font-size: 18px;
                     word-break: keep-all;
                   }
                 }
                 dd {
-                  font-size: 26px;
+                  font-size: 20px;
                 }
               }
             }
@@ -1016,6 +1017,7 @@
           text-align: center;
           h2 {
             font-size: 40px;
+            padding-top: 40px;
           }
         }
         .monitor_img {
@@ -1237,16 +1239,15 @@
 
     .notice_wrap {
       width: 300px;
+      padding-bottom: 40px;
       height: 500px;
       .notice_box {
         display: inline-block;
-
         margin: 0 auto;
         .notice {
           position: relative;
           width: 300px;
           text-align: center;
-
           .main {
             height: 28px;
             line-height: 1;
@@ -1261,8 +1262,6 @@
               height: 22px;
               margin: 2px 0 0 0;
               font-size: 0;
-              img {
-              }
             }
           }
           .sub {
@@ -1416,7 +1415,7 @@
       color: #111;
       width: 100vw;
       height: 750px;
-      padding: 20px 0 0 0;
+      padding: 60px 0 0 0;
 
       .recruit_box {
         width: 300px;

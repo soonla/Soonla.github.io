@@ -292,10 +292,10 @@
   #main #mainVisual .visual_box { padding: 1px; text-align: center; top: 50vh; left: 0; right: 0; }
   #main #mainVisual .visual_box .list_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   #main #mainVisual .visual_box .list_wrap li { width: calc(50% - 10px); position: relative; overflow: hidden; margin: 5px; }
-  #main #mainVisual .visual_box .list_wrap li a { width: 100%; }
-  #main #mainVisual .visual_box .list_wrap li a dl dt em { font-size: 24px; }
-  #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 22px; word-break: keep-all; }
-  #main #mainVisual .visual_box .list_wrap li a dl dd { font-size: 26px; }
+  #main #mainVisual .visual_box .list_wrap li a { width: 90%; }
+  #main #mainVisual .visual_box .list_wrap li a dl dt em { font-size: 20px; }
+  #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 18px; word-break: keep-all; }
+  #main #mainVisual .visual_box .list_wrap li a dl dd { font-size: 20px; }
   #main .introduce { background-color: #f1f1f1; }
   #main .introduce .title_wrap { width: 300px; margin: 0 auto; }
   #main .introduce .title_wrap .title_box { text-align: center; padding-top: 40px; }
@@ -328,7 +328,7 @@
   #main .introduce .title_wrap .list_box .mask ul li p { text-align: center; margin-top: 30px; }
   #main .monitor_wrap { width: 300px; margin: 0 auto; }
   #main .monitor_wrap .monitor .monitor_title { text-align: center; }
-  #main .monitor_wrap .monitor .monitor_title h2 { font-size: 40px; }
+  #main .monitor_wrap .monitor .monitor_title h2 { font-size: 40px; padding-top: 40px; }
   #main .monitor_wrap .monitor .monitor_img { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; position: relative; }
   #main .monitor_wrap .monitor .monitor_img img { width: 200px; }
   #main .monitor_wrap .monitor .monitor_img .monitor_ment { position: absolute; width: 200px; margin-left: -20px; word-break: keep-all; }
@@ -368,7 +368,7 @@
   #main .sns_wrap .sns_container .phone_box ul li .instagram .txt .txt1 { line-height: 1.2; }
   #main .sns_wrap .sns_container .phone_box ul li .instagram .txt .txt2 { line-height: 1.2; }
   #main .sns_wrap .sns_container .phone_box ul li .instagram .txt .txt2:hover { color: #00aaff; }
-  #main .notice_wrap { width: 300px; height: 500px; }
+  #main .notice_wrap { width: 300px; padding-bottom: 40px; height: 500px; }
   #main .notice_wrap .notice_box { display: inline-block; margin: 0 auto; }
   #main .notice_wrap .notice_box .notice { position: relative; width: 300px; text-align: center; }
   #main .notice_wrap .notice_box .notice .main { height: 28px; line-height: 1; }
@@ -394,7 +394,7 @@
   #main .notice_wrap .notice_box .customer_center .tel_box .support .consult:hover { background-color: #444; }
   #main .notice_wrap .notice_box .customer_center .tel_box .sns_box { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 20px; }
   #main .notice_wrap .notice_box .customer_center .tel_box .sns_box div a img { width: 50px; padding: 10px; }
-  #main #recruit { background: url("../images/images/main/main-visual.jpg") no-repeat 1%; background-size: cover; color: #111; width: 100vw; height: 750px; padding: 20px 0 0 0; }
+  #main #recruit { background: url("../images/images/main/main-visual.jpg") no-repeat 1%; background-size: cover; color: #111; width: 100vw; height: 750px; padding: 60px 0 0 0; }
   #main #recruit .recruit_box { width: 300px; margin: 0 auto; }
   #main #recruit .recruit_box .wrap { width: 300px; margin: 0 auto; }
   #main #recruit .recruit_box .wrap .titleBox { font-weight: 700; }
