@@ -628,6 +628,8 @@
                 span {
                   display: inline-block;
                   color: #fff;
+                  font-size: 16px;
+                  word-break: keep-all;
                 }
               }
               &:hover {
@@ -791,7 +793,7 @@
     transform: translateY(10px);
   }
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 900px) {
   #main {
     width: 100vw;
     overflow: hidden;
@@ -832,23 +834,24 @@
         }
       }
       .visual_box {
-        padding: 1px;
+        padding: 0;
         text-align: center;
         top: 50vh;
-        left: 0;
+
         right: 0;
+
         .list_wrap {
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-between;
-
           li {
             width: calc(50% - 10px);
             position: relative;
             overflow: hidden;
-            margin: 5px;
+            margin: 0 0 10px auto;
 
+            justify-content: space-between;
             a {
+              text-align: center;
               width: 90%;
 
               dl {
@@ -865,6 +868,9 @@
                   font-size: 20px;
                 }
               }
+            }
+            :hover {
+              display: none;
             }
           }
         }
@@ -1384,6 +1390,7 @@
                     display: inline-block;
                     color: #fff;
                     font-size: 18px;
+                    word-break: normal;
                   }
                 }
                 &:hover {
@@ -1632,6 +1639,9 @@
                   font-size: 18px;
                 }
               }
+            }
+            :hover {
+              display: none;
             }
           }
         }

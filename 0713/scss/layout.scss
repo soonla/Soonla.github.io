@@ -81,6 +81,7 @@ img {
             justify-content: center;
             align-items: center;
             height: 90px;
+            width: 100px;
             padding: 0 50px;
             position: relative;
             &:after {
@@ -258,23 +259,6 @@ img {
           transition: all 0.25s ease;
         }
       }
-    }
-  }
-}
-div {
-  .btnTop {
-    background-color: #0c8baf;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    right: 31px;
-    bottom: 90px;
-    border-radius: 25px;
-    color: #fff;
-    z-index: 10;
-    transition: 0.5s ease;
-    &.on {
-      bottom: 50px;
     }
   }
 }
@@ -496,7 +480,7 @@ div {
     }
   }
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 900px) {
   #header {
     position: fixed;
     width: 100%;

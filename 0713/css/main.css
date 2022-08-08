@@ -222,7 +222,7 @@
 
 #main .notice_wrap .notice_box .customer_center .tel_box .support .consult a img { padding: 10px 0 10px 0; width: 30px; }
 
-#main .notice_wrap .notice_box .customer_center .tel_box .support .consult a span { display: inline-block; color: #fff; }
+#main .notice_wrap .notice_box .customer_center .tel_box .support .consult a span { display: inline-block; color: #fff; font-size: 16px; word-break: keep-all; }
 
 #main .notice_wrap .notice_box .customer_center .tel_box .support .consult:hover { background-color: #444; }
 
@@ -282,20 +282,21 @@
 @keyframes iconAni { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
   100% { -webkit-transform: translateY(10px); transform: translateY(10px); } }
 
-@media all and (max-width: 1200px) { #main { width: 100vw; overflow: hidden; }
+@media all and (max-width: 900px) { #main { width: 100vw; overflow: hidden; }
   #main #mainVisual { position: relative; height: 100vh; }
   #main #mainVisual ul li { height: 100vh; background-repeat: no-repeat; background-size: cover; background-position: 50%; }
   #main #mainVisual ul li.visual01 { background-image: url("../images/images/main/main-visual03.jpg"); }
   #main #mainVisual ul li.visual02 { background-image: url("../images/images/main/customer-bg.jpg"); background-position: 10%; }
   #main #mainVisual .slogan { position: absolute; z-index: 3; top: 35%; left: 30%; text-align: center; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); color: #fff; }
   #main #mainVisual .slogan .main { font-size: 30px; font-weight: 600; margin-bottom: 30px; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); }
-  #main #mainVisual .visual_box { padding: 1px; text-align: center; top: 50vh; left: 0; right: 0; }
-  #main #mainVisual .visual_box .list_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-  #main #mainVisual .visual_box .list_wrap li { width: calc(50% - 10px); position: relative; overflow: hidden; margin: 5px; }
-  #main #mainVisual .visual_box .list_wrap li a { width: 90%; }
+  #main #mainVisual .visual_box { padding: 0; text-align: center; top: 50vh; right: 0; }
+  #main #mainVisual .visual_box .list_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  #main #mainVisual .visual_box .list_wrap li { width: calc(50% - 10px); position: relative; overflow: hidden; margin: 0 0 10px auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  #main #mainVisual .visual_box .list_wrap li a { text-align: center; width: 90%; }
   #main #mainVisual .visual_box .list_wrap li a dl dt em { font-size: 20px; }
   #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 18px; word-break: keep-all; }
   #main #mainVisual .visual_box .list_wrap li a dl dd { font-size: 20px; }
+  #main #mainVisual .visual_box .list_wrap li :hover { display: none; }
   #main .introduce { background-color: #f1f1f1; }
   #main .introduce .title_wrap { width: 300px; margin: 0 auto; }
   #main .introduce .title_wrap .title_box { text-align: center; padding-top: 40px; }
@@ -390,7 +391,7 @@
   #main .notice_wrap .notice_box .customer_center .tel_box .support { width: 100%; padding: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; margin-top: 10px; }
   #main .notice_wrap .notice_box .customer_center .tel_box .support .consult { border: 2px solid #999; margin: 0 0 0 5px; background-color: #999; width: 80px; height: 80px; padding: 10px; -webkit-transition: all 0.25s ease; transition: all 0.25s ease; }
   #main .notice_wrap .notice_box .customer_center .tel_box .support .consult a img { padding: 0 0 1px 0; width: 30px; }
-  #main .notice_wrap .notice_box .customer_center .tel_box .support .consult a span { display: inline-block; color: #fff; font-size: 18px; }
+  #main .notice_wrap .notice_box .customer_center .tel_box .support .consult a span { display: inline-block; color: #fff; font-size: 18px; word-break: normal; }
   #main .notice_wrap .notice_box .customer_center .tel_box .support .consult:hover { background-color: #444; }
   #main .notice_wrap .notice_box .customer_center .tel_box .sns_box { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 20px; }
   #main .notice_wrap .notice_box .customer_center .tel_box .sns_box div a img { width: 50px; padding: 10px; }
@@ -435,6 +436,7 @@
   #main #mainVisual .visual_box .list_wrap li a dl dt em { font-size: 20px; }
   #main #mainVisual .visual_box .list_wrap li a dl dt p { font-size: 18px; word-break: keep-all; }
   #main #mainVisual .visual_box .list_wrap li a dl dd { font-size: 18px; }
+  #main #mainVisual .visual_box .list_wrap li :hover { display: none; }
   #main .introduce { background-color: #f1f1f1; }
   #main .introduce .title_wrap { width: 280px; margin: 0 auto; }
   #main .introduce .title_wrap .title_box { text-align: center; padding-top: 40px; }
