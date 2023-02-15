@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main #main_visual {
+  overflow: hidden;
+  position: relative;
+}
+#main ul li {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+#main ul li.visual01 {
+  background-image: url("../images/main.jpg");
+}
+#main .main_container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+#main .main_container .hat {
+  padding-top: 180px;
+}
+
+#main .main_container .main_ment {
+  font-size: 40pt;
+  font-family: "NEXON Lv1 Gothic OTF";
+  background: linear-gradient(#edd39e, #c6a06b, #9d7947);
+  color: transparent;
+  -webkit-background-clip: text;
+  padding-top: 60px;
+  margin: 30px;
+  font-weight: 600;
+}
+#main .main_container .wings {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main .main_container .wings .left_wings {
+}
+
+#main .main_container .wings span {
+  color: #fff;
+
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-size: 42pt;
+}
+
+#main .main_container .wings .right_wings {
+}
+
+#main .main_container .sub_ment {
+  color: #fff;
+  font-size: 44pt;
+  font-family: "NEXON Lv1 Gothic OTF";
+  padding-top: 20px;
+}
+
+#main .main_container .sub_ment02 {
+  margin-top: 50px;
+  padding: 10px;
+  color: #fff;
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-size: 20pt;
+}
+
+#main .main_container .sub_ment02 span {
+  border: 2px solid #c6a06b;
+  padding: 20px 50px 20px 50px;
+  border-radius: 50px;
+}
